@@ -1,0 +1,7 @@
+<?php
+/**
+ * Implements hook_storage_core_bridge_field_types().
+ */
+function video_storage_storage_core_bridge_field_types() {
+  return array('video');
+}
